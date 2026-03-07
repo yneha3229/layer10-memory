@@ -29,7 +29,7 @@ A system that turns scattered GitHub issue discussions into a grounded long-term
 
 ### 1. Clone and install
 ```bash
-git clone https://github.com/YOUR_USERNAME/layer10-memory.git
+git clone https://github.com/yneha3229/layer10-memory.git
 cd layer10-memory
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
