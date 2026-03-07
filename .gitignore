@@ -1,0 +1,37 @@
+# Environment variables - NEVER commit this
+.env
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Raw downloaded data (too large for git, reproducible via fetch_data.py)
+data/raw/
+data/issues/
+data/comments/
+data/events/
+data/extracted/
+data/failed/
+
+# Keep these output files in git (serialized graph + context packs)
+!data/graph/
+!data/deduped/
+!data/retrieval/
+!data/visualization/
+!data/manifest.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

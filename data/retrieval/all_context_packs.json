@@ -1,0 +1,520 @@
+[
+  {
+    "question": "Who reported the most issues?",
+    "keywords": [
+      "reported",
+      "issues"
+    ],
+    "results": [
+      {
+        "claim_type": "REPORTED_BY",
+        "subject": "issue/559",
+        "object": "scheung38",
+        "confidence": 1.0,
+        "support_count": 15,
+        "evidence": [
+          {
+            "source_id": "fastapi/issue/559/body",
+            "excerpt": "How can I enable caching if not enabled by default when making API requests?",
+            "timestamp": "2019-09-23T16:40:23Z"
+          },
+          {
+            "source_id": "fastapi/issue/560/body",
+            "excerpt": "This is my file structure:",
+            "timestamp": "2019-09-23T17:14:49Z"
+          },
+          {
+            "source_id": "fastapi/issue/564/body",
+            "excerpt": "How can I show /docs or /redoc response time similar to that of POSTMAN?",
+            "timestamp": "2019-09-24T08:41:40Z"
+          }
+        ],
+        "citation": "[REPORTED_BY] issue/559 → scheung38\nConfidence: 100% | Supported by 15 source(s)\n  Evidence 1: \"How can I enable caching if not enabled by default when making API requests?\"\n            Source: fastapi/issue/559/body (2019-09-23)\n  Evidence 2: \"This is my file structure:\"\n            Source: fastapi/issue/560/body (2019-09-23)"
+      },
+      {
+        "claim_type": "REPORTED_BY",
+        "subject": "issue/214",
+        "object": "sm-fifteen",
+        "confidence": 1.0,
+        "support_count": 11,
+        "evidence": [
+          {
+            "source_id": "fastapi/issue/214/body",
+            "excerpt": "ISSUE #214: How to bridge Pydantic models with SQLAlchemy?",
+            "timestamp": "2019-05-10T17:00:48Z"
+          },
+          {
+            "source_id": "fastapi/issue/216/body",
+            "excerpt": "MyPy error when `response_model` is of type `List`",
+            "timestamp": "2019-05-11T22:19:59Z"
+          },
+          {
+            "source_id": "fastapi/issue/220/body",
+            "excerpt": "Make swagger-ui and redoc favicon configurable",
+            "timestamp": "2019-05-13T20:17:33Z"
+          }
+        ],
+        "citation": "[REPORTED_BY] issue/214 → sm-fifteen\nConfidence: 100% | Supported by 11 source(s)\n  Evidence 1: \"ISSUE #214: How to bridge Pydantic models with SQLAlchemy?\"\n            Source: fastapi/issue/214/body (2019-05-10)\n  Evidence 2: \"MyPy error when `response_model` is of type `List`\"\n            Source: fastapi/issue/216/body (2019-05-11)"
+      },
+      {
+        "claim_type": "REPORTED_BY",
+        "subject": "issue/14",
+        "object": "euri10",
+        "confidence": 1.0,
+        "support_count": 9,
+        "evidence": [
+          {
+            "source_id": "fastapi/issue/14/body",
+            "excerpt": "Greetings and congrats again for this amazingly well documented library, I'm happy Twitter made me discover this !",
+            "timestamp": "2019-01-27T21:38:28Z"
+          },
+          {
+            "source_id": "fastapi/issue/19/body",
+            "excerpt": "ISSUE #19: accessing the request object",
+            "timestamp": "2019-02-01T20:05:42Z"
+          },
+          {
+            "source_id": "fastapi/issue/36/body",
+            "excerpt": "The jsonable_encoder crashes rightfully when passing a list of postgres Records, it's certainly a mis usage on my end,",
+            "timestamp": "2019-02-17T16:37:16Z"
+          }
+        ],
+        "citation": "[REPORTED_BY] issue/14 → euri10\nConfidence: 100% | Supported by 9 source(s)\n  Evidence 1: \"Greetings and congrats again for this amazingly well documented library, I'm hap\"\n            Source: fastapi/issue/14/body (2019-01-27)\n  Evidence 2: \"ISSUE #19: accessing the request object\"\n            Source: fastapi/issue/19/body (2019-02-01)"
+      },
+      {
+        "claim_type": "REPORTED_BY",
+        "subject": "issue/46",
+        "object": "wshayes",
+        "confidence": 1.0,
+        "support_count": 7,
+        "evidence": [
+          {
+            "source_id": "fastapi/issue/46/body",
+            "excerpt": "Would like favicon for Swagger/ReDoc.",
+            "timestamp": "2019-02-19T20:45:19Z"
+          },
+          {
+            "source_id": "fastapi/issue/47/body",
+            "excerpt": "I need the ability to use the Extra.forbid config option",
+            "timestamp": "2019-02-20T01:02:57Z"
+          },
+          {
+            "source_id": "fastapi/issue/51/body",
+            "excerpt": "If we use the following option with sub-routes",
+            "timestamp": "2019-02-22T18:25:36Z"
+          }
+        ],
+        "citation": "[REPORTED_BY] issue/46 → wshayes\nConfidence: 100% | Supported by 7 source(s)\n  Evidence 1: \"Would like favicon for Swagger/ReDoc.\"\n            Source: fastapi/issue/46/body (2019-02-19)\n  Evidence 2: \"I need the ability to use the Extra.forbid config option\"\n            Source: fastapi/issue/47/body (2019-02-20)"
+      },
+      {
+        "claim_type": "REPORTED_BY",
+        "subject": "issue/238",
+        "object": "trim21",
+        "confidence": 1.0,
+        "support_count": 7,
+        "evidence": [
+          {
+            "source_id": "fastapi/issue/238/body",
+            "excerpt": "I add a loop on all my router of my app to check if the handler are all coroutine function to get better performance, but I fount that swagger_ui_html, redoc_html and openapi.json are handled by normal function.",
+            "timestamp": "2019-05-17T07:49:01Z"
+          },
+          {
+            "source_id": "fastapi/issue/252/body",
+            "excerpt": "Please bump starlette minial version to 0.12.0 to avoid RedirectResponse urlencode error",
+            "timestamp": "2019-05-24T02:53:35Z"
+          },
+          {
+            "source_id": "fastapi/issue/299/body",
+            "excerpt": "I'm  using `aioredis` as my redis driver and it's initialized by a async function `aioredis.create_redis_pool`.",
+            "timestamp": "2019-06-08T12:15:10Z"
+          }
+        ],
+        "citation": "[REPORTED_BY] issue/238 → trim21\nConfidence: 100% | Supported by 7 source(s)\n  Evidence 1: \"I add a loop on all my router of my app to check if the handler are all coroutin\"\n            Source: fastapi/issue/238/body (2019-05-17)\n  Evidence 2: \"Please bump starlette minial version to 0.12.0 to avoid RedirectResponse urlenco\"\n            Source: fastapi/issue/252/body (2019-05-24)"
+      }
+    ],
+    "entities_found": [],
+    "issues_found": [],
+    "total_results": 24,
+    "grounded": true
+  },
+  {
+    "question": "What components have the most bugs?",
+    "keywords": [
+      "components",
+      "bugs"
+    ],
+    "results": [],
+    "entities_found": [],
+    "issues_found": [
+      {
+        "id": 337,
+        "title": "Is the document old or bugs?",
+        "state": "closed",
+        "url": "https://github.com/fastapi/fastapi/issues/337"
+      }
+    ],
+    "total_results": 0,
+    "grounded": true
+  },
+  {
+    "question": "Which issues were reopened after being closed?",
+    "keywords": [
+      "issues",
+      "reopened",
+      "after",
+      "being",
+      "closed"
+    ],
+    "results": [
+      {
+        "claim_type": "DECIDED",
+        "subject": "issue/180",
+        "object": "close as it is already being reported/tracked in starlette",
+        "confidence": 0.95,
+        "support_count": 1,
+        "evidence": [
+          {
+            "source_id": "fastapi/issue/180/body",
+            "excerpt": "Closing this here as it is already being reported/tracked in starlette",
+            "timestamp": "2019-04-30T12:24:48Z"
+          }
+        ],
+        "citation": "[DECIDED] issue/180 → close as it is already being reported/tracked in starlette\nConfidence: 95% | Supported by 1 source(s)\n  Evidence 1: \"Closing this here as it is already being reported/tracked in starlette\"\n            Source: fastapi/issue/180/body (2019-04-30)"
+      },
+      {
+        "claim_type": "DECIDED",
+        "subject": "issue/316",
+        "object": "issue closed",
+        "confidence": 1.0,
+        "support_count": 2,
+        "evidence": [
+          {
+            "source_id": "fastapi/issue/523/body",
+            "excerpt": "I'll close this issue now, but feel free to add more comments or create new issues.",
+            "timestamp": "2019-10-26T19:34:07Z"
+          },
+          {
+            "source_id": "fastapi/issue/316/comment/5",
+            "excerpt": "As I see you already solved your problem, I'm going to close this issue now.",
+            "timestamp": "2020-02-10T11:27:19Z"
+          }
+        ],
+        "citation": "[DECIDED] issue/316 → issue closed\nConfidence: 100% | Supported by 2 source(s)\n  Evidence 1: \"I'll close this issue now, but feel free to add more comments or create new issu\"\n            Source: fastapi/issue/523/body (2019-10-26)\n  Evidence 2: \"As I see you already solved your problem, I'm going to close this issue now.\"\n            Source: fastapi/issue/316/comment/5 (2020-02-10)"
+      },
+      {
+        "claim_type": "DECIDED",
+        "subject": "issue/689",
+        "object": "issue closed as resolved",
+        "confidence": 0.95,
+        "support_count": 2,
+        "evidence": [
+          {
+            "source_id": "fastapi/issue/689/body",
+            "excerpt": "closed",
+            "timestamp": "2019-11-07T15:31:42Z"
+          },
+          {
+            "source_id": "fastapi/issue/690/body",
+            "excerpt": "Thanks for reporting back and closing the issue @foozzi",
+            "timestamp": "2020-04-10T16:24:36Z"
+          }
+        ],
+        "citation": "[DECIDED] issue/689 → issue closed as resolved\nConfidence: 95% | Supported by 2 source(s)\n  Evidence 1: \"closed\"\n            Source: fastapi/issue/689/body (2019-11-07)\n  Evidence 2: \"Thanks for reporting back and closing the issue @foozzi\"\n            Source: fastapi/issue/690/body (2020-04-10)"
+      },
+      {
+        "claim_type": "DECIDED",
+        "subject": "issue/633",
+        "object": "issue will be automatically closed",
+        "confidence": 1.0,
+        "support_count": 1,
+        "evidence": [
+          {
+            "source_id": "fastapi/issue/633/comment/5",
+            "excerpt": "Assuming the original issue was solved, it will be automatically closed now.",
+            "timestamp": "2019-11-27T20:56:46Z"
+          }
+        ],
+        "citation": "[DECIDED] issue/633 → issue will be automatically closed\nConfidence: 100% | Supported by 1 source(s)\n  Evidence 1: \"Assuming the original issue was solved, it will be automatically closed now.\"\n            Source: fastapi/issue/633/comment/5 (2019-11-27)"
+      },
+      {
+        "claim_type": "RELATES_TO",
+        "subject": "issue/84",
+        "object": "starlette/issues/136",
+        "confidence": 0.95,
+        "support_count": 1,
+        "evidence": [
+          {
+            "source_id": "fastapi/issue/84/comment/1",
+            "excerpt": "https://github.com/encode/starlette/issues/136",
+            "timestamp": "2019-03-19T09:39:42Z"
+          }
+        ],
+        "citation": "[RELATES_TO] issue/84 → starlette/issues/136\nConfidence: 95% | Supported by 1 source(s)\n  Evidence 1: \"https://github.com/encode/starlette/issues/136\"\n            Source: fastapi/issue/84/comment/1 (2019-03-19)"
+      }
+    ],
+    "entities_found": [],
+    "issues_found": [
+      {
+        "id": 661,
+        "title": "Ability to set response headers / cookies after yield",
+        "state": "closed",
+        "url": "https://github.com/fastapi/fastapi/issues/661"
+      },
+      {
+        "id": 658,
+        "title": "Adding a response header in a dependency after yield",
+        "state": "closed",
+        "url": "https://github.com/fastapi/fastapi/issues/658"
+      },
+      {
+        "id": 409,
+        "title": "Equivalent of flask's `Flask.before_request` and `Flask.after_request`?",
+        "state": "closed",
+        "url": "https://github.com/fastapi/fastapi/issues/409"
+      }
+    ],
+    "total_results": 8,
+    "grounded": true
+  },
+  {
+    "question": "What decisions were made about dependencies?",
+    "keywords": [
+      "decisions",
+      "made",
+      "dependencies"
+    ],
+    "results": [
+      {
+        "claim_type": "AFFECTS",
+        "subject": "issue/6",
+        "object": "dependencies",
+        "confidence": 1.0,
+        "support_count": 19,
+        "evidence": [
+          {
+            "source_id": "fastapi/issue/6/body",
+            "excerpt": "reuses the good parts of fastapi and pydantic",
+            "timestamp": "2019-01-11T22:26:18Z"
+          },
+          {
+            "source_id": "fastapi/issue/67/body",
+            "excerpt": "Dependencies: https://fastapi.tiangolo.com/tutorial/dependencies/first-steps/",
+            "timestamp": "2019-03-17T18:59:41Z"
+          },
+          {
+            "source_id": "fastapi/issue/96/body",
+            "excerpt": "it fails at passing the custom_encoder kwarg down the line.",
+            "timestamp": "2019-03-22T17:46:01Z"
+          }
+        ],
+        "citation": "[AFFECTS] issue/6 → dependencies\nConfidence: 100% | Supported by 19 source(s)\n  Evidence 1: \"reuses the good parts of fastapi and pydantic\"\n            Source: fastapi/issue/6/body (2019-01-11)\n  Evidence 2: \"Dependencies: https://fastapi.tiangolo.com/tutorial/dependencies/first-steps/\"\n            Source: fastapi/issue/67/body (2019-03-17)"
+      }
+    ],
+    "entities_found": [
+      {
+        "id": "component:dependencies",
+        "type": "Component",
+        "name": "dependencies",
+        "mention_count": 142
+      },
+      {
+        "id": "component:dependencies-cache",
+        "type": "Component",
+        "name": "dependencies-cache",
+        "mention_count": 1
+      },
+      {
+        "id": "component:dependencies with yield",
+        "type": "Component",
+        "name": "dependencies with yield",
+        "mention_count": 1
+      },
+      {
+        "id": "component:dependencies-decorators",
+        "type": "Component",
+        "name": "dependencies-decorators",
+        "mention_count": 1
+      }
+    ],
+    "issues_found": [
+      {
+        "id": 639,
+        "title": "Execute dependencies in parallel instead of sequentially awaiting them",
+        "state": "closed",
+        "url": "https://github.com/fastapi/fastapi/issues/639"
+      },
+      {
+        "id": 636,
+        "title": "Is it possible to catch exceptions in async generator dependencies?",
+        "state": "closed",
+        "url": "https://github.com/fastapi/fastapi/issues/636"
+      },
+      {
+        "id": 446,
+        "title": "Dependencies imported from file with python annotations don't work",
+        "state": "closed",
+        "url": "https://github.com/fastapi/fastapi/issues/446"
+      },
+      {
+        "id": 425,
+        "title": "Startup event dependencies",
+        "state": "closed",
+        "url": "https://github.com/fastapi/fastapi/issues/425"
+      },
+      {
+        "id": 402,
+        "title": "Middleware and dependencies",
+        "state": "closed",
+        "url": "https://github.com/fastapi/fastapi/issues/402"
+      }
+    ],
+    "total_results": 1,
+    "grounded": true
+  },
+  {
+    "question": "Who is assigned to routing issues?",
+    "keywords": [
+      "assigned",
+      "routing",
+      "issues"
+    ],
+    "results": [
+      {
+        "claim_type": "ASSIGNED_TO",
+        "subject": "issue/47",
+        "object": "null",
+        "confidence": 1.0,
+        "support_count": 11,
+        "evidence": [
+          {
+            "source_id": "fastapi/issue/228",
+            "excerpt": "",
+            "timestamp": ""
+          },
+          {
+            "source_id": "fastapi/issue/47",
+            "excerpt": "Assignees: ",
+            "timestamp": "2019-02-20T01:02:57Z"
+          },
+          {
+            "source_id": "fastapi/issue/172",
+            "excerpt": "Assignees: ",
+            "timestamp": "2019-04-21T11:27:14Z"
+          }
+        ],
+        "citation": "[ASSIGNED_TO] issue/47 → null\nConfidence: 100% | Supported by 11 source(s)\n  Evidence 1: \"\"\n            Source: fastapi/issue/228 ()\n  Evidence 2: \"Assignees: \"\n            Source: fastapi/issue/47 (2019-02-20)"
+      },
+      {
+        "claim_type": "AFFECTS",
+        "subject": "issue/96",
+        "object": "routing",
+        "confidence": 0.95,
+        "support_count": 6,
+        "evidence": [
+          {
+            "source_id": "fastapi/issue/96/body",
+            "excerpt": "it seems like a bug in the way the `jsonable_encoder` function handles the response, namely for a model like",
+            "timestamp": "2019-03-22T17:46:01Z"
+          },
+          {
+            "source_id": "fastapi/issue/324/body",
+            "excerpt": "If I hit `GET /api/v1/users/6` and the user with id 6 does not exist, the response will be a 404.",
+            "timestamp": "2019-06-21T00:00:00Z"
+          },
+          {
+            "source_id": "fastapi/issue/368/body",
+            "excerpt": "Possible bug in `routing` module L#49",
+            "timestamp": "2019-07-05T04:21:58Z"
+          }
+        ],
+        "citation": "[AFFECTS] issue/96 → routing\nConfidence: 95% | Supported by 6 source(s)\n  Evidence 1: \"it seems like a bug in the way the `jsonable_encoder` function handles the respo\"\n            Source: fastapi/issue/96/body (2019-03-22)\n  Evidence 2: \"If I hit `GET /api/v1/users/6` and the user with id 6 does not exist, the respon\"\n            Source: fastapi/issue/324/body (2019-06-21)"
+      },
+      {
+        "claim_type": "ASSIGNED_TO",
+        "subject": "issue/306",
+        "object": "dmontagu",
+        "confidence": 0.95,
+        "support_count": 2,
+        "evidence": [
+          {
+            "source_id": "fastapi/issue/303/comment/0",
+            "excerpt": "@dmontagu fixed it in #306",
+            "timestamp": "2019-06-13T16:37:19Z"
+          },
+          {
+            "source_id": "fastapi/issue/404/body",
+            "excerpt": "I’ll look into this as soon as I can (hopefully tomorrow),",
+            "timestamp": "2019-07-24T08:19:44Z"
+          }
+        ],
+        "citation": "[ASSIGNED_TO] issue/306 → dmontagu\nConfidence: 95% | Supported by 2 source(s)\n  Evidence 1: \"@dmontagu fixed it in #306\"\n            Source: fastapi/issue/303/comment/0 (2019-06-13)\n  Evidence 2: \"I’ll look into this as soon as I can (hopefully tomorrow),\"\n            Source: fastapi/issue/404/body (2019-07-24)"
+      },
+      {
+        "claim_type": "ASSIGNED_TO",
+        "subject": "issue/212",
+        "object": "none",
+        "confidence": 1.0,
+        "support_count": 1,
+        "evidence": [
+          {
+            "source_id": "fastapi/issue/212",
+            "excerpt": "Assignees: ",
+            "timestamp": "2019-05-10T14:12:23Z"
+          }
+        ],
+        "citation": "[ASSIGNED_TO] issue/212 → none\nConfidence: 100% | Supported by 1 source(s)\n  Evidence 1: \"Assignees: \"\n            Source: fastapi/issue/212 (2019-05-10)"
+      },
+      {
+        "claim_type": "RELATES_TO",
+        "subject": "issue/84",
+        "object": "starlette/issues/136",
+        "confidence": 0.95,
+        "support_count": 1,
+        "evidence": [
+          {
+            "source_id": "fastapi/issue/84/comment/1",
+            "excerpt": "https://github.com/encode/starlette/issues/136",
+            "timestamp": "2019-03-19T09:39:42Z"
+          }
+        ],
+        "citation": "[RELATES_TO] issue/84 → starlette/issues/136\nConfidence: 95% | Supported by 1 source(s)\n  Evidence 1: \"https://github.com/encode/starlette/issues/136\"\n            Source: fastapi/issue/84/comment/1 (2019-03-19)"
+      }
+    ],
+    "entities_found": [
+      {
+        "id": "component:routing",
+        "type": "Component",
+        "name": "routing",
+        "mention_count": 56
+      },
+      {
+        "id": "component:path-based routing",
+        "type": "Component",
+        "name": "path-based routing",
+        "mention_count": 1
+      }
+    ],
+    "issues_found": [
+      {
+        "id": 460,
+        "title": "ValidationError missing constructor argument in routing module (L54)",
+        "state": "closed",
+        "url": "https://github.com/fastapi/fastapi/issues/460"
+      },
+      {
+        "id": 368,
+        "title": "Possible bug in `routing` module L#49",
+        "state": "closed",
+        "url": "https://github.com/fastapi/fastapi/issues/368"
+      },
+      {
+        "id": 10,
+        "title": "starlette update breaks routing",
+        "state": "closed",
+        "url": "https://github.com/fastapi/fastapi/issues/10"
+      }
+    ],
+    "total_results": 8,
+    "grounded": true
+  }
+]

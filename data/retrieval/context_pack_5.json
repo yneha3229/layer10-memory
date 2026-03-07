@@ -1,0 +1,146 @@
+{
+  "question": "Who is assigned to routing issues?",
+  "keywords": [
+    "assigned",
+    "routing",
+    "issues"
+  ],
+  "results": [
+    {
+      "claim_type": "ASSIGNED_TO",
+      "subject": "issue/47",
+      "object": "null",
+      "confidence": 1.0,
+      "support_count": 11,
+      "evidence": [
+        {
+          "source_id": "fastapi/issue/228",
+          "excerpt": "",
+          "timestamp": ""
+        },
+        {
+          "source_id": "fastapi/issue/47",
+          "excerpt": "Assignees: ",
+          "timestamp": "2019-02-20T01:02:57Z"
+        },
+        {
+          "source_id": "fastapi/issue/172",
+          "excerpt": "Assignees: ",
+          "timestamp": "2019-04-21T11:27:14Z"
+        }
+      ],
+      "citation": "[ASSIGNED_TO] issue/47 → null\nConfidence: 100% | Supported by 11 source(s)\n  Evidence 1: \"\"\n            Source: fastapi/issue/228 ()\n  Evidence 2: \"Assignees: \"\n            Source: fastapi/issue/47 (2019-02-20)"
+    },
+    {
+      "claim_type": "AFFECTS",
+      "subject": "issue/96",
+      "object": "routing",
+      "confidence": 0.95,
+      "support_count": 6,
+      "evidence": [
+        {
+          "source_id": "fastapi/issue/96/body",
+          "excerpt": "it seems like a bug in the way the `jsonable_encoder` function handles the response, namely for a model like",
+          "timestamp": "2019-03-22T17:46:01Z"
+        },
+        {
+          "source_id": "fastapi/issue/324/body",
+          "excerpt": "If I hit `GET /api/v1/users/6` and the user with id 6 does not exist, the response will be a 404.",
+          "timestamp": "2019-06-21T00:00:00Z"
+        },
+        {
+          "source_id": "fastapi/issue/368/body",
+          "excerpt": "Possible bug in `routing` module L#49",
+          "timestamp": "2019-07-05T04:21:58Z"
+        }
+      ],
+      "citation": "[AFFECTS] issue/96 → routing\nConfidence: 95% | Supported by 6 source(s)\n  Evidence 1: \"it seems like a bug in the way the `jsonable_encoder` function handles the respo\"\n            Source: fastapi/issue/96/body (2019-03-22)\n  Evidence 2: \"If I hit `GET /api/v1/users/6` and the user with id 6 does not exist, the respon\"\n            Source: fastapi/issue/324/body (2019-06-21)"
+    },
+    {
+      "claim_type": "ASSIGNED_TO",
+      "subject": "issue/306",
+      "object": "dmontagu",
+      "confidence": 0.95,
+      "support_count": 2,
+      "evidence": [
+        {
+          "source_id": "fastapi/issue/303/comment/0",
+          "excerpt": "@dmontagu fixed it in #306",
+          "timestamp": "2019-06-13T16:37:19Z"
+        },
+        {
+          "source_id": "fastapi/issue/404/body",
+          "excerpt": "I’ll look into this as soon as I can (hopefully tomorrow),",
+          "timestamp": "2019-07-24T08:19:44Z"
+        }
+      ],
+      "citation": "[ASSIGNED_TO] issue/306 → dmontagu\nConfidence: 95% | Supported by 2 source(s)\n  Evidence 1: \"@dmontagu fixed it in #306\"\n            Source: fastapi/issue/303/comment/0 (2019-06-13)\n  Evidence 2: \"I’ll look into this as soon as I can (hopefully tomorrow),\"\n            Source: fastapi/issue/404/body (2019-07-24)"
+    },
+    {
+      "claim_type": "ASSIGNED_TO",
+      "subject": "issue/212",
+      "object": "none",
+      "confidence": 1.0,
+      "support_count": 1,
+      "evidence": [
+        {
+          "source_id": "fastapi/issue/212",
+          "excerpt": "Assignees: ",
+          "timestamp": "2019-05-10T14:12:23Z"
+        }
+      ],
+      "citation": "[ASSIGNED_TO] issue/212 → none\nConfidence: 100% | Supported by 1 source(s)\n  Evidence 1: \"Assignees: \"\n            Source: fastapi/issue/212 (2019-05-10)"
+    },
+    {
+      "claim_type": "RELATES_TO",
+      "subject": "issue/84",
+      "object": "starlette/issues/136",
+      "confidence": 0.95,
+      "support_count": 1,
+      "evidence": [
+        {
+          "source_id": "fastapi/issue/84/comment/1",
+          "excerpt": "https://github.com/encode/starlette/issues/136",
+          "timestamp": "2019-03-19T09:39:42Z"
+        }
+      ],
+      "citation": "[RELATES_TO] issue/84 → starlette/issues/136\nConfidence: 95% | Supported by 1 source(s)\n  Evidence 1: \"https://github.com/encode/starlette/issues/136\"\n            Source: fastapi/issue/84/comment/1 (2019-03-19)"
+    }
+  ],
+  "entities_found": [
+    {
+      "id": "component:routing",
+      "type": "Component",
+      "name": "routing",
+      "mention_count": 56
+    },
+    {
+      "id": "component:path-based routing",
+      "type": "Component",
+      "name": "path-based routing",
+      "mention_count": 1
+    }
+  ],
+  "issues_found": [
+    {
+      "id": 460,
+      "title": "ValidationError missing constructor argument in routing module (L54)",
+      "state": "closed",
+      "url": "https://github.com/fastapi/fastapi/issues/460"
+    },
+    {
+      "id": 368,
+      "title": "Possible bug in `routing` module L#49",
+      "state": "closed",
+      "url": "https://github.com/fastapi/fastapi/issues/368"
+    },
+    {
+      "id": 10,
+      "title": "starlette update breaks routing",
+      "state": "closed",
+      "url": "https://github.com/fastapi/fastapi/issues/10"
+    }
+  ],
+  "total_results": 8,
+  "grounded": true
+}

@@ -1,0 +1,19 @@
+{
+  "question": "What components have the most bugs?",
+  "keywords": [
+    "components",
+    "bugs"
+  ],
+  "results": [],
+  "entities_found": [],
+  "issues_found": [
+    {
+      "id": 337,
+      "title": "Is the document old or bugs?",
+      "state": "closed",
+      "url": "https://github.com/fastapi/fastapi/issues/337"
+    }
+  ],
+  "total_results": 0,
+  "grounded": true
+}

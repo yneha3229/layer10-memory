@@ -1,0 +1,95 @@
+{
+  "question": "What decisions were made about dependencies?",
+  "keywords": [
+    "decisions",
+    "made",
+    "dependencies"
+  ],
+  "results": [
+    {
+      "claim_type": "AFFECTS",
+      "subject": "issue/6",
+      "object": "dependencies",
+      "confidence": 1.0,
+      "support_count": 19,
+      "evidence": [
+        {
+          "source_id": "fastapi/issue/6/body",
+          "excerpt": "reuses the good parts of fastapi and pydantic",
+          "timestamp": "2019-01-11T22:26:18Z"
+        },
+        {
+          "source_id": "fastapi/issue/67/body",
+          "excerpt": "Dependencies: https://fastapi.tiangolo.com/tutorial/dependencies/first-steps/",
+          "timestamp": "2019-03-17T18:59:41Z"
+        },
+        {
+          "source_id": "fastapi/issue/96/body",
+          "excerpt": "it fails at passing the custom_encoder kwarg down the line.",
+          "timestamp": "2019-03-22T17:46:01Z"
+        }
+      ],
+      "citation": "[AFFECTS] issue/6 → dependencies\nConfidence: 100% | Supported by 19 source(s)\n  Evidence 1: \"reuses the good parts of fastapi and pydantic\"\n            Source: fastapi/issue/6/body (2019-01-11)\n  Evidence 2: \"Dependencies: https://fastapi.tiangolo.com/tutorial/dependencies/first-steps/\"\n            Source: fastapi/issue/67/body (2019-03-17)"
+    }
+  ],
+  "entities_found": [
+    {
+      "id": "component:dependencies",
+      "type": "Component",
+      "name": "dependencies",
+      "mention_count": 142
+    },
+    {
+      "id": "component:dependencies-cache",
+      "type": "Component",
+      "name": "dependencies-cache",
+      "mention_count": 1
+    },
+    {
+      "id": "component:dependencies with yield",
+      "type": "Component",
+      "name": "dependencies with yield",
+      "mention_count": 1
+    },
+    {
+      "id": "component:dependencies-decorators",
+      "type": "Component",
+      "name": "dependencies-decorators",
+      "mention_count": 1
+    }
+  ],
+  "issues_found": [
+    {
+      "id": 639,
+      "title": "Execute dependencies in parallel instead of sequentially awaiting them",
+      "state": "closed",
+      "url": "https://github.com/fastapi/fastapi/issues/639"
+    },
+    {
+      "id": 636,
+      "title": "Is it possible to catch exceptions in async generator dependencies?",
+      "state": "closed",
+      "url": "https://github.com/fastapi/fastapi/issues/636"
+    },
+    {
+      "id": 446,
+      "title": "Dependencies imported from file with python annotations don't work",
+      "state": "closed",
+      "url": "https://github.com/fastapi/fastapi/issues/446"
+    },
+    {
+      "id": 425,
+      "title": "Startup event dependencies",
+      "state": "closed",
+      "url": "https://github.com/fastapi/fastapi/issues/425"
+    },
+    {
+      "id": 402,
+      "title": "Middleware and dependencies",
+      "state": "closed",
+      "url": "https://github.com/fastapi/fastapi/issues/402"
+    }
+  ],
+  "total_results": 1,
+  "grounded": true
+}

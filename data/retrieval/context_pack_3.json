@@ -1,0 +1,120 @@
+{
+  "question": "Which issues were reopened after being closed?",
+  "keywords": [
+    "issues",
+    "reopened",
+    "after",
+    "being",
+    "closed"
+  ],
+  "results": [
+    {
+      "claim_type": "DECIDED",
+      "subject": "issue/180",
+      "object": "close as it is already being reported/tracked in starlette",
+      "confidence": 0.95,
+      "support_count": 1,
+      "evidence": [
+        {
+          "source_id": "fastapi/issue/180/body",
+          "excerpt": "Closing this here as it is already being reported/tracked in starlette",
+          "timestamp": "2019-04-30T12:24:48Z"
+        }
+      ],
+      "citation": "[DECIDED] issue/180 → close as it is already being reported/tracked in starlette\nConfidence: 95% | Supported by 1 source(s)\n  Evidence 1: \"Closing this here as it is already being reported/tracked in starlette\"\n            Source: fastapi/issue/180/body (2019-04-30)"
+    },
+    {
+      "claim_type": "DECIDED",
+      "subject": "issue/316",
+      "object": "issue closed",
+      "confidence": 1.0,
+      "support_count": 2,
+      "evidence": [
+        {
+          "source_id": "fastapi/issue/523/body",
+          "excerpt": "I'll close this issue now, but feel free to add more comments or create new issues.",
+          "timestamp": "2019-10-26T19:34:07Z"
+        },
+        {
+          "source_id": "fastapi/issue/316/comment/5",
+          "excerpt": "As I see you already solved your problem, I'm going to close this issue now.",
+          "timestamp": "2020-02-10T11:27:19Z"
+        }
+      ],
+      "citation": "[DECIDED] issue/316 → issue closed\nConfidence: 100% | Supported by 2 source(s)\n  Evidence 1: \"I'll close this issue now, but feel free to add more comments or create new issu\"\n            Source: fastapi/issue/523/body (2019-10-26)\n  Evidence 2: \"As I see you already solved your problem, I'm going to close this issue now.\"\n            Source: fastapi/issue/316/comment/5 (2020-02-10)"
+    },
+    {
+      "claim_type": "DECIDED",
+      "subject": "issue/689",
+      "object": "issue closed as resolved",
+      "confidence": 0.95,
+      "support_count": 2,
+      "evidence": [
+        {
+          "source_id": "fastapi/issue/689/body",
+          "excerpt": "closed",
+          "timestamp": "2019-11-07T15:31:42Z"
+        },
+        {
+          "source_id": "fastapi/issue/690/body",
+          "excerpt": "Thanks for reporting back and closing the issue @foozzi",
+          "timestamp": "2020-04-10T16:24:36Z"
+        }
+      ],
+      "citation": "[DECIDED] issue/689 → issue closed as resolved\nConfidence: 95% | Supported by 2 source(s)\n  Evidence 1: \"closed\"\n            Source: fastapi/issue/689/body (2019-11-07)\n  Evidence 2: \"Thanks for reporting back and closing the issue @foozzi\"\n            Source: fastapi/issue/690/body (2020-04-10)"
+    },
+    {
+      "claim_type": "DECIDED",
+      "subject": "issue/633",
+      "object": "issue will be automatically closed",
+      "confidence": 1.0,
+      "support_count": 1,
+      "evidence": [
+        {
+          "source_id": "fastapi/issue/633/comment/5",
+          "excerpt": "Assuming the original issue was solved, it will be automatically closed now.",
+          "timestamp": "2019-11-27T20:56:46Z"
+        }
+      ],
+      "citation": "[DECIDED] issue/633 → issue will be automatically closed\nConfidence: 100% | Supported by 1 source(s)\n  Evidence 1: \"Assuming the original issue was solved, it will be automatically closed now.\"\n            Source: fastapi/issue/633/comment/5 (2019-11-27)"
+    },
+    {
+      "claim_type": "RELATES_TO",
+      "subject": "issue/84",
+      "object": "starlette/issues/136",
+      "confidence": 0.95,
+      "support_count": 1,
+      "evidence": [
+        {
+          "source_id": "fastapi/issue/84/comment/1",
+          "excerpt": "https://github.com/encode/starlette/issues/136",
+          "timestamp": "2019-03-19T09:39:42Z"
+        }
+      ],
+      "citation": "[RELATES_TO] issue/84 → starlette/issues/136\nConfidence: 95% | Supported by 1 source(s)\n  Evidence 1: \"https://github.com/encode/starlette/issues/136\"\n            Source: fastapi/issue/84/comment/1 (2019-03-19)"
+    }
+  ],
+  "entities_found": [],
+  "issues_found": [
+    {
+      "id": 661,
+      "title": "Ability to set response headers / cookies after yield",
+      "state": "closed",
+      "url": "https://github.com/fastapi/fastapi/issues/661"
+    },
+    {
+      "id": 658,
+      "title": "Adding a response header in a dependency after yield",
+      "state": "closed",
+      "url": "https://github.com/fastapi/fastapi/issues/658"
+    },
+    {
+      "id": 409,
+      "title": "Equivalent of flask's `Flask.before_request` and `Flask.after_request`?",
+      "state": "closed",
+      "url": "https://github.com/fastapi/fastapi/issues/409"
+    }
+  ],
+  "total_results": 8,
+  "grounded": true
+}
