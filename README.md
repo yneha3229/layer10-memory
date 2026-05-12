@@ -1,4 +1,4 @@
-# Layer10 Take-Home: Grounded Long-Term Memory
+#  Grounded Long-Term Memory
 
 A system that turns scattered GitHub issue discussions into a grounded long-term memory graph — with structured extraction, deduplication, conflict tracking, and interactive visualization.
 
